@@ -1,0 +1,56 @@
+
+form{
+    margin: 20px;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 5px;
+}
+#nombreCompleto{
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+#correoElectronico{
+    color: black;
+    background-color: yellow;
+    border: 1px solid blue;
+}
+
+#edad{
+    color: black;
+    background-color: white;
+    border: 2px solid red;
+}
+
+#comentarios{
+    color: black;
+    background-color: yellow;
+    border: 1px solid gray;
+    
+}
+
+#botonEnviar{
+    color: white;
+    background-color: blue;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#titulo{
+    font-size: 59px;
+    color: brown;
+    margin: 20px 25px 30px 500px;
+    top: 30%;
+}
+
+.footer{
+    color: white;
+}
+
+body{
+    background-color: darkorchid;
+}
+

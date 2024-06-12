@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>formulario</title>
+</head>
+<body>
+    <header><h1 id="titulo">formulario</h1>
+    <link rel="stylesheet" href="styles.css">
+    <nav>
+        <ul class="navbar">
+            <li><a href="http://es.wikipedia.org/wiki/Wikipedia:Portada">seccion 1</a></li>
+            <li><a href="http://es.wikipedia.org/wiki/Wikipedia:Portada">seccion 2</a></li>
+            <li><a href="http://es.wikipedia.org/wiki/Wikipedia:Portada">seccion 3</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section>
+        <article>
+            <form action="">
+                <label for="nombreCompleto">ingresar su nombre completo</label>
+                <input type="text" id="nombreCompleto" name="nombreCompleto" placeholder="ingresar nombre completo" required>
+                <br><br>
+                <label for="email">ingresar email</label>
+                <input type="email" id="correoElectronico" name="correoElectronico" placeholder="ingresar email" required>
+                <br><br>
+                <label for="edad">ingrese su edad</label>
+                <input type="number" id="edad" name="edad" min="1" max="120" step="1" placeholder="ingrese su edad" required>
+                <br><br>
+                <label for="comentarios">deje sus comentarios</label>
+                <textarea name="comentarios" id="comentarios" placeholder="deje sus comentarios"></textarea>
+                <br><br>
+                <button type="submit" id="botonEnviar">enviar</button>
+    
+            </form>
+        </article>
+     </section>
+<hr>
+    <footer>
+        <li><a class="footer" href="#titulo">volver al inicio</a></li>
+        <br>
+        <li><a class="footer" target="_blank" href="https://es.wikipedia.org/wiki/Wikipedia:Portada">jjjj</a></li>
+    </footer>
+</body>
+</html>
